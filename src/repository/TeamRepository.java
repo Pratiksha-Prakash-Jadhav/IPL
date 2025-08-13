@@ -14,6 +14,7 @@ public class TeamRepository {
 		team.setCaptionName("Hardik Pandya");
 		team.setNRR(2.3f);
 		team.setQualified(false);
+		team.setShortName("MI");
 		return team;
 	}
 	//add similar mathod for remaining 9 teams
@@ -28,6 +29,7 @@ public class TeamRepository {
 		team.setCaptionName("Axar Patel");
 		team.setNRR(3.4f);
 		team.setQualified(false);
+		team.setShortName("DC");
 		return team;
 	}
 	
@@ -41,6 +43,7 @@ public class TeamRepository {
 		team.setCaptionName("Ruturaj Gaikwad");
 		team.setNRR(3.5f);
 		team.setQualified(true);
+		team.setShortName("CSK");
 		return team;
 	}
 	
@@ -78,6 +81,7 @@ public class TeamRepository {
 		team.setCaptionName("KL Rahul");
 		team.setNRR(2.3f);
 		team.setQualified(true);
+		team.setShortName("LSG");
 		return team;
 	}
 	
@@ -91,6 +95,7 @@ public class TeamRepository {
 		team.setCaptionName("Shreyas layer");
 		team.setNRR(3.4f);
 		team.setQualified(false);
+		team.setShortName("PK");
 		return team;
 	}
 	
@@ -104,6 +109,7 @@ public class TeamRepository {
 		team.setCaptionName("Sanju Samson");
 		team.setNRR(1.3f);
 		team.setQualified(true);
+		team.setShortName("RR");
 		return team;
 	}
 	
@@ -117,6 +123,7 @@ public class TeamRepository {
 		team.setCaptionName("Faf du Plessis");
 		team.setNRR(3.4f);
 		team.setQualified(false);
+		team.setShortName("RCB");
 		return team;
 	}
 	
@@ -130,6 +137,7 @@ public class TeamRepository {
 		team.setCaptionName("Aiden Markram");
 		team.setNRR(3.3f);
 		team.setQualified(true);
+		team.setShortName("SH");
 		return team;
 	}
 }
