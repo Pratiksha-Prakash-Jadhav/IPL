@@ -17,7 +17,7 @@ public class TeamService {
 		System.out.println("3.Get team Ddetails by id");
 		
 		int input=sc.nextInt();
-		System.out.println("You have selected option is: "+input);
+		System.err.println("You have selected option is: "+input);
 		
 		switch(input)
 		{
@@ -50,9 +50,9 @@ public class TeamService {
 		
 		case 3:
 		{
-			 System.out.println("please enter your team id number: ");
+			 System.out.println("please enter your team id: ");
 			 int teamId=sc.nextInt();
-			 System.out.println("entered team id is: "+teamId);
+			 System.err.println("entered team id is: "+teamId);
 			 getTeamById(teamId);
 			 break;
 		}
