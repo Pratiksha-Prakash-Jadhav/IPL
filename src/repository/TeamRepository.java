@@ -52,10 +52,12 @@ public class TeamRepository {
 		Team team=new Team();
 		System.out.println("\nGujrat Titans Team Details: ");
 		team.setId(104);
-		team.setTeamName("Ashish Nehra");
-		team.setTeamName("Shubman Gill");
+		team.setTeamName("Gujrat Titans");
+		team.setCoachName("Ashish Nehra");
+		team.setCaptionName("Shubman Gill");
 		team.setNRR(4.5f);
 		team.setQualified(true);
+		team.setShortName("GT");
 		return team;
 	}
 	
@@ -68,6 +70,7 @@ public class TeamRepository {
 		team.setCoachName("Chandrakant pandit");
 		team.setNRR(4.5f);
 		team.setQualified(false);
+		team.setShortName("KKR");
 		return team;
 	}
 	

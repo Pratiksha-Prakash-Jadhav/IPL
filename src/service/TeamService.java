@@ -1,12 +1,12 @@
 package service;
 
 import java.util.Scanner;
-
 import entity.Team;
 import repository.TeamRepository;
 
 public class TeamService {
  
+   
 	public void selectOptions()
 	{
 		Scanner sc=new Scanner(System.in);
